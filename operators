@@ -1,0 +1,17 @@
+n1=int(input("Enter a number1:"))
+n2=int(input("Enter a number2:"))
+sum=n1+n2
+print(sum)
+dif=n1-n2
+print(dif)
+mul=n1*n2
+print(mul)
+div=n1/n2
+print(div)
+fdiv=n1//n2
+print(fdiv)
+per=n1%n2
+print(per)
+pow=n1**n2
+print(pow)
+

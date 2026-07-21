@@ -1,0 +1,46 @@
+
+# checking the mutability and immutability of data types in python
+# flt1=(10.4)
+# print(flt1)
+# print(id(flt1))
+# flt1+=15.4
+# print(flt1)
+# print(id(flt1))
+
+
+# coplex
+
+# com1=10+3j
+# print(com1)
+# print(id(com1))
+# com1+=3+3j
+# print(com1)
+# print(id(com1))
+
+
+# here sets and dictionary are unorderd so we can use |= symbol to check for utability and immutability
+
+# set1={10,20,39}
+# print(set1)
+# print(id(set1))
+# set1|={34,45}
+# print(set1)
+# print(id(set1))
+
+
+##input fn()::
+num1=int(input("Enter a number:"))
+num2=int(input("Enter a float number:"))
+sum=num1+num2
+dif=num1-num2
+print(dif)
+mul=num1*num2
+print(mul)
+div=num1/num2
+print(div)
+fdiv=num1//num2
+print(fdiv)
+per=num1%num2
+print(per)
+pow=num1**num2
+print(pow)
